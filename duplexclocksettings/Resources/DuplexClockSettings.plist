@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Duplex Clock by Jack (@sharedRoutine)</string>
+			<key>footerText</key>
+			<string>DuplexClock allows you to have a second Clock for a different timezone in your Statusbar. This can be useful if you have a person in another country and you do not want to wake him up by calling that person at 3AM. Idea by MiRO92 (Reddit)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<string>Pacific/Norfolk</string>
+			<key>PostNotification</key>
+			<string>duplexclock_settingsupdated_notification</string>
+			<key>defaults</key>
+			<string>com.sharedroutine.duplexclock</string>
+			<key>key</key>
+			<string>kTimeZone</string>
+			<key>titlesDataSource</key>
+			<string>timeZones</string>
+			<key>valuesDataSource</key>
+			<string>timeZones</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>label</key>
+			<string>Select Timezone</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Duplex Clock Settings</string>
+</dict>
+</plist>

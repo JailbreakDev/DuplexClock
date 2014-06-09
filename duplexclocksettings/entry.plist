@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = DuplexClockSettings;
+		cell = PSLinkCell;
+		detail = "DuplexClockSettingsListController";
+		icon = "DuplexClock.png";
+		isController = 1;
+		label = "Duplex Clock Settings";
+	};
+}
